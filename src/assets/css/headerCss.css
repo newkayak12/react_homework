@@ -1,0 +1,9 @@
+.header-container {
+    border:1px black solid; padding:0.5rem; display:flex;
+}
+.header-container .back {
+    font-size:32px; margin-right:10px;
+}
+.header-container .title {
+    font-size:32px;
+}

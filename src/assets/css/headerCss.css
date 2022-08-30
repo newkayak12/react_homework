@@ -4,6 +4,9 @@
 .header-container .back {
     font-size:32px; margin-right:10px;
 }
+.header-container .back:hover{
+    cursor: pointer;
+}
 .header-container .title {
     font-size:32px;
 }

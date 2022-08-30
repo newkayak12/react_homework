@@ -21,7 +21,7 @@ export const Index = () => {
 
     return (
         <>
-            <div style={{backgroundColor:"black"}}>
+            <div style={{backgroundColor:"black", height:'100vh'}}>
                 <div style={{display:'flex', justifyContent:"center"}}>
                     <pre style={{color:`rgb(${color})`}}>
                         {"    ____                  __       __  __                   _       __           __  \n" +
@@ -35,9 +35,9 @@ export const Index = () => {
 
                 <ol style={{textAlign:"center", marginTop:'5rem', color:"white"}}>
                     <li onClick={()=>{navigate("/gugudan")}}> 1. 구구단</li>
-                    <li onClick={()=>{navigate("/")}}> 2.가사 속 단어 찾기</li>
-                    <li onClick={()=>{navigate("/")}}> 3.신호등</li>
-                    <li onClick={()=>{navigate("/")}}> 4.끝말잇기</li>
+                    <li onClick={()=>{navigate("/findword")}}> 2.가사 속 단어 찾기</li>
+                    <li onClick={()=>{navigate("/trafficLight")}}> 3.신호등</li>
+                    <li onClick={()=>{navigate("/endTalk")}}> 4.끝말잇기</li>
                     <li onClick={()=>{navigate("/")}}> 5.숫자야구</li>
                     <li onClick={()=>{navigate("/")}}> 6.로또추첨</li>
                     <li onClick={()=>{navigate("/")}}> 7.틱택토</li>

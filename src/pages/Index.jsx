@@ -39,7 +39,7 @@ export const Index = () => {
                     <li onClick={()=>{navigate("/trafficLight")}}> 3.신호등</li>
                     <li onClick={()=>{navigate("/endTalk")}}> 4.끝말잇기</li>
                     <li onClick={()=>{navigate("/numberBaseBall")}}> 5.숫자야구</li>
-                    <li onClick={()=>{navigate("/")}}> 6.로또추첨</li>
+                    <li onClick={()=>{navigate("/lottery")}}> 6.로또추첨</li>
                     <li onClick={()=>{navigate("/")}}> 7.틱택토</li>
                 </ol>
             </div>

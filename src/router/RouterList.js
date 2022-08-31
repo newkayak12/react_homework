@@ -4,7 +4,8 @@ import {FindWord} from "../pages/02findWord/FindWord";
 import {TrafficLight} from "../pages/03trafficLight/TrafficLight";
 import {EndTalk} from "../pages/04endTalk/EndTalk";
 import {NumberBaseBall} from "../pages/05numberBaseBall/NumberBaseBall";
-import {Lottery} from "../pages/06Lottery/Lottery";
+import {Lottery} from "../pages/06lottery/Lottery";
+import {TicTacToeIndex} from "../pages/07tictactoe/TicTacToeIndex";
 
 
 
@@ -29,5 +30,8 @@ export default [
     },
     {
         path:'/lottery', component: <Lottery/>
+    },
+    {
+        path:'/tictactoe', component: <TicTacToeIndex/>
     }
 ]

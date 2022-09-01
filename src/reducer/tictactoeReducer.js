@@ -14,6 +14,12 @@ export const tictactoeReducer = createSlice({
         table:[['','',''],['','',''],['','','']]
     },
     reducers: {
+        init:(state)=>{
+                state.winner = ''
+                state.turn = 'O'
+                state.state = GAME_STATE.WAIT
+                state.table = [['','',''],['','',''],['','','']]
+        },
         setState: (state, action) => {
             state.state = action.payload
         },
@@ -23,11 +29,11 @@ export const tictactoeReducer = createSlice({
         setTurn: (state, action) => {
             state.turn = action.payload
         },
-        setWiiner: (state, action) =>{
+        setWinner: (state, action) =>{
             state.winner = action.payload
         }
     }
 })
 
-export const { setState } = tictactoeReducer.actions
+export const { init, setState, setTable, setTurn, setWinner } = tictactoeReducer.actions
 export default tictactoeReducer.reducer
